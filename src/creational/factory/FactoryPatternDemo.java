@@ -1,5 +1,7 @@
 package creational.factory;
 
+import java.util.Calendar;
+
 /**
  * Created by Mahmud Al Hakim
  * Date: 2020-11-30
@@ -23,7 +25,12 @@ public class FactoryPatternDemo {
     shape3.draw();
 
     Shape shape4 = shapeFactory.getShape("rect");
+
     shape4.draw();
+
+    var date1 = Calendar.getInstance();
+    var date2 = Calendar.getInstance();
+    System.out.println(date1 == date2); // false
 
   }
 }

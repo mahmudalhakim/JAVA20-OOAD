@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioral.strategy.exercise.solution</OriginalElement>
+  <nodes>
+    <node x="157.0" y="0.0">behavioral.strategy.exercise.solution.EncryptionAlgorithm</node>
+    <node x="0.0" y="504.0">behavioral.strategy.exercise.solution.ChatDemo</node>
+    <node x="0.0" y="144.0">behavioral.strategy.exercise.solution.AES</node>
+    <node x="0.0" y="283.0">behavioral.strategy.exercise.solution.ChatClient</node>
+    <node x="323.0" y="144.0">behavioral.strategy.exercise.solution.DES</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.strategy.exercise.solution.DES" target="behavioral.strategy.exercise.solution.EncryptionAlgorithm">
+      <point x="0.0" y="-47.0" />
+      <point x="474.5" y="119.0" />
+      <point x="391.0" y="119.0" />
+      <point x="78.0" y="47.0" />
+    </edge>
+    <edge source="behavioral.strategy.exercise.solution.AES" target="behavioral.strategy.exercise.solution.EncryptionAlgorithm">
+      <point x="0.0" y="-47.0" />
+      <point x="151.5" y="119.0" />
+      <point x="235.0" y="119.0" />
+      <point x="-78.0" y="47.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="313.0" y="299.0" />
+  <SelectedNodes>
+    <node>behavioral.strategy.exercise.solution.EncryptionAlgorithm</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

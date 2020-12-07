@@ -6,11 +6,12 @@ public class HomeTheaterFacade {
   TheaterLights lights;
   Screen screen;
 
-  public HomeTheaterFacade(Amplifier amp,
-                           Projector projector,
-                           Screen screen,
-                           TheaterLights lights
-  ) {
+  public HomeTheaterFacade() {
+
+    Amplifier amp = new Amplifier("Amplifier");
+    Projector projector = new Projector("Projector");
+    TheaterLights lights = new TheaterLights("Theater Ceiling Lights");
+    Screen screen = new Screen("Theater Screen");
 
     this.amp = amp;
     this.projector = projector;
